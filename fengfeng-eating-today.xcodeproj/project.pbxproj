@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5E0DDE297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DDD297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift */; };
+		CD5E0DE0297CEC4D0053F2F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DDF297CEC4D0053F2F6 /* ContentView.swift */; };
+		CD5E0DE2297CEC4D0053F2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5E0DE1297CEC4D0053F2F6 /* Assets.xcassets */; };
+		CD5E0DE5297CEC4D0053F2F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5E0DE4297CEC4D0053F2F6 /* Preview Assets.xcassets */; };
+		CD5E0DEF297CEC4E0053F2F6 /* fengfeng_eating_todayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DEE297CEC4E0053F2F6 /* fengfeng_eating_todayTests.swift */; };
+		CD5E0DF9297CEC4E0053F2F6 /* fengfeng_eating_todayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DF8297CEC4E0053F2F6 /* fengfeng_eating_todayUITests.swift */; };
+		CD5E0DFB297CEC4E0053F2F6 /* fengfeng_eating_todayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DFA297CEC4E0053F2F6 /* fengfeng_eating_todayUITestsLaunchTests.swift */; };
+		CDD98B11298BF5A700CB8B3A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD98B10298BF5A700CB8B3A /* Home.swift */; };
+		CDD98B13298BF70D00CB8B3A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD98B12298BF70D00CB8B3A /* SplashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5E0DEB297CEC4E0053F2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5E0DD2297CEC4D0053F2F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5E0DD9297CEC4D0053F2F6;
+			remoteInfo = "fengfeng-eating-today";
+		};
+		CD5E0DF5297CEC4E0053F2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5E0DD2297CEC4D0053F2F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5E0DD9297CEC4D0053F2F6;
+			remoteInfo = "fengfeng-eating-today";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5E0DDA297CEC4D0053F2F6 /* fengfeng-eating-today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fengfeng-eating-today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5E0DDD297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fengfeng_eating_todayApp.swift; sourceTree = "<group>"; };
+		CD5E0DDF297CEC4D0053F2F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD5E0DE1297CEC4D0053F2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5E0DE4297CEC4D0053F2F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD5E0DEA297CEC4E0053F2F6 /* fengfeng-eating-todayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fengfeng-eating-todayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5E0DEE297CEC4E0053F2F6 /* fengfeng_eating_todayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fengfeng_eating_todayTests.swift; sourceTree = "<group>"; };
+		CD5E0DF4297CEC4E0053F2F6 /* fengfeng-eating-todayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fengfeng-eating-todayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5E0DF8297CEC4E0053F2F6 /* fengfeng_eating_todayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fengfeng_eating_todayUITests.swift; sourceTree = "<group>"; };
+		CD5E0DFA297CEC4E0053F2F6 /* fengfeng_eating_todayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fengfeng_eating_todayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDD98B10298BF5A700CB8B3A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CDD98B12298BF70D00CB8B3A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5E0DD7297CEC4D0053F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E0DE7297CEC4E0053F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E0DF1297CEC4E0053F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5E0DD1297CEC4D0053F2F6 = {
+			isa = PBXGroup;
+			children = (
+				CD5E0DDC297CEC4D0053F2F6 /* fengfeng-eating-today */,
+				CD5E0DED297CEC4E0053F2F6 /* fengfeng-eating-todayTests */,
+				CD5E0DF7297CEC4E0053F2F6 /* fengfeng-eating-todayUITests */,
+				CD5E0DDB297CEC4D0053F2F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5E0DDB297CEC4D0053F2F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5E0DDA297CEC4D0053F2F6 /* fengfeng-eating-today.app */,
+				CD5E0DEA297CEC4E0053F2F6 /* fengfeng-eating-todayTests.xctest */,
+				CD5E0DF4297CEC4E0053F2F6 /* fengfeng-eating-todayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5E0DDC297CEC4D0053F2F6 /* fengfeng-eating-today */ = {
+			isa = PBXGroup;
+			children = (
+				CDD98B0F298BF57500CB8B3A /* View */,
+				CD5E0DDD297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift */,
+				CD5E0DDF297CEC4D0053F2F6 /* ContentView.swift */,
+				CD5E0DE1297CEC4D0053F2F6 /* Assets.xcassets */,
+				CD5E0DE3297CEC4D0053F2F6 /* Preview Content */,
+			);
+			path = "fengfeng-eating-today";
+			sourceTree = "<group>";
+		};
+		CD5E0DE3297CEC4D0053F2F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD5E0DE4297CEC4D0053F2F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD5E0DED297CEC4E0053F2F6 /* fengfeng-eating-todayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5E0DEE297CEC4E0053F2F6 /* fengfeng_eating_todayTests.swift */,
+			);
+			path = "fengfeng-eating-todayTests";
+			sourceTree = "<group>";
+		};
+		CD5E0DF7297CEC4E0053F2F6 /* fengfeng-eating-todayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5E0DF8297CEC4E0053F2F6 /* fengfeng_eating_todayUITests.swift */,
+				CD5E0DFA297CEC4E0053F2F6 /* fengfeng_eating_todayUITestsLaunchTests.swift */,
+			);
+			path = "fengfeng-eating-todayUITests";
+			sourceTree = "<group>";
+		};
+		CDD98B0F298BF57500CB8B3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDD98B10298BF5A700CB8B3A /* Home.swift */,
+				CDD98B12298BF70D00CB8B3A /* SplashScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5E0DD9297CEC4D0053F2F6 /* fengfeng-eating-today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5E0DFE297CEC4E0053F2F6 /* Build configuration list for PBXNativeTarget "fengfeng-eating-today" */;
+			buildPhases = (
+				CD5E0DD6297CEC4D0053F2F6 /* Sources */,
+				CD5E0DD7297CEC4D0053F2F6 /* Frameworks */,
+				CD5E0DD8297CEC4D0053F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fengfeng-eating-today";
+			productName = "fengfeng-eating-today";
+			productReference = CD5E0DDA297CEC4D0053F2F6 /* fengfeng-eating-today.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5E0DE9297CEC4E0053F2F6 /* fengfeng-eating-todayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5E0E01297CEC4E0053F2F6 /* Build configuration list for PBXNativeTarget "fengfeng-eating-todayTests" */;
+			buildPhases = (
+				CD5E0DE6297CEC4E0053F2F6 /* Sources */,
+				CD5E0DE7297CEC4E0053F2F6 /* Frameworks */,
+				CD5E0DE8297CEC4E0053F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5E0DEC297CEC4E0053F2F6 /* PBXTargetDependency */,
+			);
+			name = "fengfeng-eating-todayTests";
+			productName = "fengfeng-eating-todayTests";
+			productReference = CD5E0DEA297CEC4E0053F2F6 /* fengfeng-eating-todayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5E0DF3297CEC4E0053F2F6 /* fengfeng-eating-todayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5E0E04297CEC4E0053F2F6 /* Build configuration list for PBXNativeTarget "fengfeng-eating-todayUITests" */;
+			buildPhases = (
+				CD5E0DF0297CEC4E0053F2F6 /* Sources */,
+				CD5E0DF1297CEC4E0053F2F6 /* Frameworks */,
+				CD5E0DF2297CEC4E0053F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5E0DF6297CEC4E0053F2F6 /* PBXTargetDependency */,
+			);
+			name = "fengfeng-eating-todayUITests";
+			productName = "fengfeng-eating-todayUITests";
+			productReference = CD5E0DF4297CEC4E0053F2F6 /* fengfeng-eating-todayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5E0DD2297CEC4D0053F2F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CD5E0DD9297CEC4D0053F2F6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CD5E0DE9297CEC4E0053F2F6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CD5E0DD9297CEC4D0053F2F6;
+					};
+					CD5E0DF3297CEC4E0053F2F6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CD5E0DD9297CEC4D0053F2F6;
+					};
+				};
+			};
+			buildConfigurationList = CD5E0DD5297CEC4D0053F2F6 /* Build configuration list for PBXProject "fengfeng-eating-today" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5E0DD1297CEC4D0053F2F6;
+			productRefGroup = CD5E0DDB297CEC4D0053F2F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5E0DD9297CEC4D0053F2F6 /* fengfeng-eating-today */,
+				CD5E0DE9297CEC4E0053F2F6 /* fengfeng-eating-todayTests */,
+				CD5E0DF3297CEC4E0053F2F6 /* fengfeng-eating-todayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5E0DD8297CEC4D0053F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5E0DE5297CEC4D0053F2F6 /* Preview Assets.xcassets in Resources */,
+				CD5E0DE2297CEC4D0053F2F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E0DE8297CEC4E0053F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E0DF2297CEC4E0053F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5E0DD6297CEC4D0053F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD98B13298BF70D00CB8B3A /* SplashScreen.swift in Sources */,
+				CD5E0DE0297CEC4D0053F2F6 /* ContentView.swift in Sources */,
+				CDD98B11298BF5A700CB8B3A /* Home.swift in Sources */,
+				CD5E0DDE297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E0DE6297CEC4E0053F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5E0DEF297CEC4E0053F2F6 /* fengfeng_eating_todayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5E0DF0297CEC4E0053F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5E0DFB297CEC4E0053F2F6 /* fengfeng_eating_todayUITestsLaunchTests.swift in Sources */,
+				CD5E0DF9297CEC4E0053F2F6 /* fengfeng_eating_todayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5E0DEC297CEC4E0053F2F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5E0DD9297CEC4D0053F2F6 /* fengfeng-eating-today */;
+			targetProxy = CD5E0DEB297CEC4E0053F2F6 /* PBXContainerItemProxy */;
+		};
+		CD5E0DF6297CEC4E0053F2F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5E0DD9297CEC4D0053F2F6 /* fengfeng-eating-today */;
+			targetProxy = CD5E0DF5297CEC4E0053F2F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD5E0DFC297CEC4E0053F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5E0DFD297CEC4E0053F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5E0DFF297CEC4E0053F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fengfeng-eating-today/Preview Content\"";
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "峰峰今天吃什么";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swanine.fengfeng-eating-today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD5E0E00297CEC4E0053F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fengfeng-eating-today/Preview Content\"";
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "峰峰今天吃什么";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swanine.fengfeng-eating-today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD5E0E02297CEC4E0053F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swanine.fengfeng-eating-todayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fengfeng-eating-today.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fengfeng-eating-today";
+			};
+			name = Debug;
+		};
+		CD5E0E03297CEC4E0053F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swanine.fengfeng-eating-todayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fengfeng-eating-today.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fengfeng-eating-today";
+			};
+			name = Release;
+		};
+		CD5E0E05297CEC4E0053F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swanine.fengfeng-eating-todayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fengfeng-eating-today";
+			};
+			name = Debug;
+		};
+		CD5E0E06297CEC4E0053F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swanine.fengfeng-eating-todayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fengfeng-eating-today";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5E0DD5297CEC4D0053F2F6 /* Build configuration list for PBXProject "fengfeng-eating-today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E0DFC297CEC4E0053F2F6 /* Debug */,
+				CD5E0DFD297CEC4E0053F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5E0DFE297CEC4E0053F2F6 /* Build configuration list for PBXNativeTarget "fengfeng-eating-today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E0DFF297CEC4E0053F2F6 /* Debug */,
+				CD5E0E00297CEC4E0053F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5E0E01297CEC4E0053F2F6 /* Build configuration list for PBXNativeTarget "fengfeng-eating-todayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E0E02297CEC4E0053F2F6 /* Debug */,
+				CD5E0E03297CEC4E0053F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5E0E04297CEC4E0053F2F6 /* Build configuration list for PBXNativeTarget "fengfeng-eating-todayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5E0E05297CEC4E0053F2F6 /* Debug */,
+				CD5E0E06297CEC4E0053F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5E0DD2297CEC4D0053F2F6 /* Project object */;
+}
