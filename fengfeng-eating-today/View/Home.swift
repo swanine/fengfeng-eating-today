@@ -20,7 +20,6 @@ struct Home: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(50)
-//                .clipShape(Circle())
             
             Text("峰峰今天吃什么")
                 .font(.largeTitle)
@@ -37,21 +36,22 @@ struct Home: View {
                 selectedFood = food.shuffled().first
             } label: {
                 Text(selectedFood == .none ? "告诉我!" : "换一个").frame(width: 200)
+                    .frame(width: 240,height: 60)
             }
-            .buttonStyle(.borderedProminent)
-            .padding(.bottom, -15)
-            
+            .foregroundColor(Color.white)
+            .background(Color.pink)
+            .cornerRadius(12)
             
             Button(role: .none) {
                 selectedFood = .none
             } label: {
                 Text("重置").frame(width: 200)
             }
+            .foregroundColor(Color.pink)
             .buttonStyle(.bordered)
         }
         .font(.title)
         .padding()
-        .buttonBorderShape(.capsule)
         .controlSize(.large)
         .animation(.default, value: selectedFood)
     }
