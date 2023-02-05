@@ -20,14 +20,12 @@ struct ContentView: View {
                 .font(.system(size: 35).bold())
                 .foregroundColor(.white)
             
-            
         } logoView: {
             
             //make sure to give exact size of logo frame here...
             Image("feng")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-//                .frame(width: 128, height: 128)
                 .clipShape(Circle())
         }
 
