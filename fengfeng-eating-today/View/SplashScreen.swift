@@ -39,7 +39,7 @@ struct SplashScreen<Content: View, Title: View, Logo: View>: View {
             
             ZStack {
                 
-                Color.purple
+                Color.pink
                     .ignoresSafeArea()
                 
                 
