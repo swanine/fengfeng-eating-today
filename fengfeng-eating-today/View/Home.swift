@@ -14,7 +14,6 @@ struct Home: View {
     var body: some View {
         
         VStack(spacing: 30) {
-//            Image("fengfeng")
             Image("fengfeng")
                 .renderingMode(.original)
                 .resizable()
