@@ -9,26 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         SplashScreen(imageSize:CGSize(width: 128, height: 128)) {
             
-            Home()
+            TabView {
+                Home()
+                    .tabItem {
+                        Label("小", systemImage: "1.square.fill")
+                    }
+                Text("Second Tab")
+                    .tabItem {
+                        Image(systemName: "2.square.fill")
+                        Text("峰")
+                    }
+            }
             
         } titleView: {
-        
-            Text("Feng")
+            Text("峰峰今天吃什么")
                 .font(.system(size: 35).bold())
                 .foregroundColor(.white)
             
         } logoView: {
-            
             //make sure to give exact size of logo frame here...
             Image("feng")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .clipShape(Circle())
         }
-
     }
 }
 
