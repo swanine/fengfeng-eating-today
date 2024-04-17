@@ -8,33 +8,30 @@
 import SwiftUI
 
 struct Home: View {
-    let food = ["汉堡", "炸鸡", "蛋挞", "披萨", "奶茶", "火锅", "牛肉面", "爆炒鱿鱼", "椒盐虾", "红烧带鱼", "香辣花甲"]
-    @State private var selectedFood: String?
+    let food = ["包公鱼", "刀板香", "凤炖牡丹", "符离集烧鸡", "荷叶粉蒸肉", "虎皮毛豆腐","荠菜圆子","青螺炖鸭","清汤白玉饺","清蒸石鸡","问政笋","腌鲜臭鳜鱼","杨梅团子","一品锅","中和汤"
+    ]
+    @State private var selectedFood: String = "fengfeng"
     
     var body: some View {
         
         VStack(spacing: 30) {
-            Image("fengfeng")
+            Image(selectedFood)
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(50)
             
-            Text("峰峰今天吃什么")
-                .font(.largeTitle)
-                .bold()
-            
-            if selectedFood != .none {
-                Text(selectedFood ?? "")
+            if selectedFood != "fengfeng" {
+                Text(selectedFood)
                     .font(.largeTitle)
                     .bold()
                     .foregroundColor(.green)
             }
             
             Button(role: .none) {
-                selectedFood = food.shuffled().first
+                selectedFood = food.shuffled().first ?? "fengfeng"
             } label: {
-                Text(selectedFood == .none ? "告诉我!" : "换一个").frame(width: 200)
+                Text(selectedFood == "fengfeng" ? "告诉我!" : "换一个").frame(width: 200)
                     .frame(width: 240,height: 60)
             }
             .foregroundColor(Color.white)
@@ -42,9 +39,9 @@ struct Home: View {
             .cornerRadius(12)
             
             Button(role: .none) {
-                selectedFood = .none
+                selectedFood = "fengfeng"
             } label: {
-                Text("重置").frame(width: 200)
+                Text("我要重选").frame(width: 200)
             }
             .foregroundColor(Color.pink)
             .buttonStyle(.bordered)
