@@ -7,12 +7,30 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct ContentView1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Text("First Tab")
+                .tabItem {
+                    Image(systemName: "1.square.fill")
+                    Text("First")
+                }
+            Text("Second Tab")
+                .tabItem {
+                    Image(systemName: "2.square.fill")
+                    Text("Second")
+                }
+            Text("Third Tab")
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                    Text("Third")
+                }
+        }
     }
 }
 
-#Preview {
-    SwiftUIView()
+struct ContentView1_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
