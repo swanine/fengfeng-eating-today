@@ -44,7 +44,7 @@ struct SplashScreen<Content: View, Title: View, Logo: View>: View {
                 
                 
                 titleView
-                    .scaleEffect(endAnimation ? 0.75 : 1)
+                    .scaleEffect(endAnimation ? 0.55 : 1)
                     .offset(y: textAnimation ? -5 : 110)
                 
                 if !endAnimation {
@@ -74,7 +74,7 @@ struct SplashScreen<Content: View, Title: View, Logo: View>: View {
             }
             // decreasing size when animatuon ended...
             // your own value
-            .frame(height: endAnimation ? 69 : nil)
+            .frame(height: endAnimation ? 50 : nil)
             .zIndex(1)
             
             //HomeView
