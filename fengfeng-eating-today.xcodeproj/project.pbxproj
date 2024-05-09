@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD47D0392BB1A8C800AFE19D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47D0382BB1A8C800AFE19D /* SwiftUIView.swift */; };
 		CD5E0DDE297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DDD297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift */; };
 		CD5E0DE0297CEC4D0053F2F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E0DDF297CEC4D0053F2F6 /* ContentView.swift */; };
 		CD5E0DE2297CEC4D0053F2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5E0DE1297CEC4D0053F2F6 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD47D0382BB1A8C800AFE19D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		CD5E0DDA297CEC4D0053F2F6 /* fengfeng-eating-today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fengfeng-eating-today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5E0DDD297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fengfeng_eating_todayApp.swift; sourceTree = "<group>"; };
 		CD5E0DDF297CEC4D0053F2F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				CDD98B10298BF5A700CB8B3A /* Home.swift */,
 				CDD98B12298BF70D00CB8B3A /* SplashScreen.swift */,
+				CD47D0382BB1A8C800AFE19D /* SwiftUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				CD5E0DE0297CEC4D0053F2F6 /* ContentView.swift in Sources */,
 				CDD98B11298BF5A700CB8B3A /* Home.swift in Sources */,
 				CD5E0DDE297CEC4D0053F2F6 /* fengfeng_eating_todayApp.swift in Sources */,
+				CD47D0392BB1A8C800AFE19D /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
